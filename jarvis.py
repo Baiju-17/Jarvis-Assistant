@@ -202,11 +202,11 @@ if __name__ == "__main__":
         elif 'thank you' in query:
             speak("perfact , sir")
         elif 'what is your name' in query or 'whats your name' in query:
-            speak('my name is jarvis, i am in my first phase. my sir told me in future i became the most advance and denger AI in the whole world ')  
+            speak('my name is jarvis, i am in my first phase.')  
             speak('here is my sir name ')
             print('Baijanth kewat')
         elif 'again' in query:
-             speak('i saying. my name is jarvis, i am in my first phase. my sir told me in future i became the most advance and dengerous AI in the whole world ')      
+             speak('i saying. my name is jarvis, i am in my first phase.')      
         elif '' in query:
             speak('')
         elif '' in query:
@@ -234,3 +234,4 @@ if __name__ == "__main__":
        
         else:
             speak(f"You said: {query}")
+
